@@ -36,3 +36,8 @@ main #campo-gioco{
     font-size: 40px;
     color: white;
 }
+
+.blue{
+    background-color: blue;
+    color: white;
+}

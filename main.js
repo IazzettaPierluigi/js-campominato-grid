@@ -17,5 +17,16 @@ playBtn.addEventListener('click', function(){
     
         box.innerHTML = `<span>${i}</span>`;
         campoHtml.append(box)
+
+
+        box.addEventListener('click', function () {
+        
+            console.log(i)
+
+            box.classList.add('blue')
+        
+        }
+        )
     }
+
 })
