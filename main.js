@@ -5,13 +5,17 @@
 
 
 let campoHtml = document.getElementById('campo-gioco')
+let playBtn = document.getElementById('play-btn')
 
 
-for (let i = 1; i <= 100; i++){
-    let box = document.createElement("div")
+playBtn.addEventListener('click', function(){
 
-    box.classList.add("box")
-
-    box.innerHTML = `<span>${i}</span>`;
-    campoHtml.append(box)
-}
+    for (let i = 1; i <= 100; i++){
+        let box = document.createElement("div")
+    
+        box.classList.add("box")
+    
+        box.innerHTML = `<span>${i}</span>`;
+        campoHtml.append(box)
+    }
+})
