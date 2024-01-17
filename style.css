@@ -8,6 +8,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+
+    height: 10vh;
 }
 
 main{
@@ -15,15 +17,18 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 80vh;
 }
+
 
 main #campo-gioco{
     margin: 0 auto;
-    width: 60%;
+    width: 40%;
     padding: 20px;
 
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .box{
@@ -34,7 +39,7 @@ main #campo-gioco{
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    color: white;
+    color: black;
 }
 
 .blue{
