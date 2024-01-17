@@ -23,7 +23,7 @@ playBtn.addEventListener('click', function(){
         
             console.log(i)
 
-            box.classList.add('blue')
+            box.classList.toggle('blue')
         
         }
         )
