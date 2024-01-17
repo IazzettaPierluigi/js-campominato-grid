@@ -6,11 +6,12 @@
 
 let campoHtml = document.getElementById('campo-gioco')
 let playBtn = document.getElementById('play-btn')
+let selectHtml = document.getElementById('cmSelect')
 
 
 playBtn.addEventListener('click', function(){
 
-    for (let i = 1; i <= 100; i++){
+    for (let i = 1; i <= cmSelect.value; i++){
         //creo il div al quale darò classe box
         let box = document.createElement("div")
     
